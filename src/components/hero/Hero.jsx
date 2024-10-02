@@ -28,8 +28,8 @@ const customTheme = createTheme({
 });
 
 const swiperSlider = [
-  { title: "MEN", img: "./src/components/banner-15.jpg" },
-  { title: "WOMEN", img: "./src/components/banner-25.jpg" },
+  { title: "MEN", img: "/banner-15.jpg" },
+  { title: "WOMEN", img: "/banner-25.jpg" },
 ];
 
 const Hero = () => {
@@ -165,7 +165,7 @@ const Hero = () => {
               >
                 <img
                   style={{ width: "100%", height: "100%", objectFit: "fill" }}
-                  src="./src/components/banner-17.jpg"
+                  src="/banner-17.jpg"
                   alt="img"
                 />
                 <Stack
@@ -214,7 +214,7 @@ const Hero = () => {
               <Box sx={{ height: "220px", position: "relative", boxShadow: 1 }}>
                 <img
                   style={{ width: "100%", height: "100%", objectFit: "fill" }}
-                  src="./src/components/banner-16.jpg"
+                  src="/banner-16.jpg"
                   alt="img"
                 />
                 <Stack
